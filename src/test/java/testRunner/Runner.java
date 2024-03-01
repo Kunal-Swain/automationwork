@@ -8,4 +8,4 @@ import io.cucumber.testng.CucumberOptions;
 				"pretty", "html:test-output/cucumber/report.html", "json:test-output/cucjson-reports/Cucumber.json" })
 public class Runner extends AbstractTestNGCucumberTests {
 
-}//git push comit check
+}//git push comit checks
