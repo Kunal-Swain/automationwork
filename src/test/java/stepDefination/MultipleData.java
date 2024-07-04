@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
+//check git hub changes of the way
 public class MultipleData {
 	WebDriver driver;
 	String url = "http://orangehrm.qedgetech.com/";

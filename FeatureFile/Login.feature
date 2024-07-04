@@ -1,7 +1,9 @@
 Feature: Login Functionality Feature
 In order to check login functionality works,
 I want run cucumber framework to check working or not.
-@tag1 #you can use any tag name
+ 
+#you can use any tag name
+@tag1
 Scenario: Login Functionality
 Given User navigate Orange URL
 When User logs in with username and with password
@@ -25,3 +27,7 @@ Examples:
 |Firefox|Admin|Qedge123!@#|
 |Chrome|Admin|Qedge123!|
 |Firefox|Admin|Qedge123!|
+
+
+
+#https://www.saucedemo.com/v1/inventory.html
