@@ -28,6 +28,15 @@ Examples:
 |Chrome|Admin|Qedge123!|
 |Firefox|Admin|Qedge123!|
 
-
+@tag3
+Scenario: Check scroll working or not
+Given User Launch URL in
+When Url loading successfully scroll to element
+Then Scroll down by pixels
+Then Scroll up by pixels
+Then Scroll bottom of the page
+Then Scroll to top of the page
+Then Scroll to set for scroll position of the page
+Then Close browser
 
 #https://www.saucedemo.com/v1/inventory.html
