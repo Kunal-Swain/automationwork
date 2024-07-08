@@ -104,6 +104,7 @@ public class ScrollingCheck {
         	scenario.attach(screenshot, "image/png", description);
         } catch(NullPointerException e) {
         	System.out.println("Detect why it is null");
+        	//git check
         }
     }
 }
