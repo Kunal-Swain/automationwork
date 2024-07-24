@@ -20,6 +20,7 @@ public class MultipleData {
 	    	driver.manage().window().maximize();
 	    	driver.get(url);
 	    }
+		//multicheck github
 		else if(brw.equalsIgnoreCase("firefox")) {
 	    	System.out.println("Executing Firefox Browser");
 	    	driver = new FirefoxDriver();
